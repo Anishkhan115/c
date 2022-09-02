@@ -1,0 +1,17 @@
+// AUTHOR: ANISH KHAN
+// DATE: 02/09/2022
+// PROGRAM: post-decrement
+
+#include <stdio.h>
+
+int main() {
+    int a=10;
+    printf("enter value of a : ");
+    scanf("%d",&a);
+    int x;
+     x=a--;
+    printf("\nthe value of a is %d",a);
+    printf("\nthe value of x is %d",x);
+
+    return 0;
+}
