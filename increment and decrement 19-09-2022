@@ -1,0 +1,24 @@
+
+
+#include <stdio.h>
+
+void main() 
+{
+    int a;
+    int x;
+    printf("enter number a:");
+    scanf("%d",&a);
+    x=a++;
+    printf(" after increment x=%d and a=%d",x,a);
+   
+    //next line
+    printf("\n-----------------------------\n");
+    
+// decrement
+    printf("\nenter number a:");
+    scanf("%d",&a);
+    x=a--;
+      printf("\n After decrement a=%d and x=%d",a,x);
+     
+     
+}
