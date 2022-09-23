@@ -1,0 +1,17 @@
+//AUTHOR : ANISH KHAN
+//DATE : 23/09/2022
+//PROGRAM : FIND AREA AMD CIRCUMFERENCE OF CIRCLE 23-09-2022
+# include <stdio.h>
+
+void main()
+{
+    float radius;
+    float area;
+    float circumference;
+    printf("enter the radius of circle:");
+    scanf("%f",&radius);
+    area=3.14*radius*radius;
+    circumference=2*3.14*radius;
+    printf("area of circle is: %0.2f",area);
+    printf("\ncircumference of circle is: %0.2f",circumference);
+}
