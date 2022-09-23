@@ -1,0 +1,14 @@
+//AUTHOR : ANISH KHAN
+//DATE : 23/09/2022
+//PROGRAM : CONVERSION OF DEGREE CELSIUS INTO FAHRENHEIT
+# include <stdio.h>
+
+void main()
+{
+    float celsius;
+    float fahrenheit;
+    printf("enter temperature in degree fahrenheit :");
+    scanf("%f",&fahrenheit);
+    celsius= (fahrenheit - 32)*5/9;
+    printf("temperature in degree celsius is %0.2f",celsius);
+}
