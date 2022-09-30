@@ -1,0 +1,54 @@
+/* AUTHOR: ANISH KHAN 
+DATE :- 30/09/22
+PROGRAM: FIND WHICH IS GREATER IN THREE NUMBERS. (6.1) */
+#include<stdio.h>
+void main()
+{
+    int a,b,c;
+    printf("enter 1st number:");
+    scanf("%d",&a);
+    printf("enter 2nd number:");
+    scanf("%d",&b); 
+    printf("enter 3rd number:");
+    scanf("%d",&c);
+    if(a>b)
+    {
+          if(a>c)
+        {
+            printf("1st number is greater",a);
+        }  
+        else
+        {
+            printf(" 3rd number is greater",c );
+        }
+    }
+    else
+    {
+        if(b>c)
+        {
+            printf("2nd number is greater",b);
+        }
+        else
+        {
+            printf("3rd number is greater",c);
+        }
+    }
+}
+
+
+ OUTPUT:enter 1st number:56
+        enter 2nd number:59
+        enter 3rd number:58
+        2nd number is greater
+        
+        
+        enter 1st number:27
+        enter 2nd number:28
+        enter 3rd number:67
+        3rd number is greater
+        
+
+
+
+
+
