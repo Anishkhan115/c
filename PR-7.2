@@ -1,0 +1,45 @@
+#include <stdio.h>
+
+void main() 
+{
+  int marks;
+  printf("enter marks 0-100 : ");
+  scanf("%d",&marks);
+  
+  if (marks>100)
+  {
+      printf("invalid.....");
+  }
+  else
+  {
+ 
+      int v=marks/20;
+      switch (v)
+          {
+              
+              case 2:
+              //MARKS 40-59
+              printf("D Grade");
+              break;
+              
+              case 3:
+              //MARKS 60-79
+              printf("C Grade");
+              break;
+              
+              case 4:
+              //MARKS 80-99
+              printf("B Grade");
+              break;
+              
+              case 5:
+              //MARKS=1OO
+              printf("A Grade");
+              break;
+              
+              default:
+              printf("Fail");
+      }
+  }
+    
+}
