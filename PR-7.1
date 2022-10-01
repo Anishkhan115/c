@@ -1,0 +1,37 @@
+/* AUTHOR : ANISH KHAN
+DATE: 1-10-2022
+PROGRAM: PRINTING DAY OF WEEK BY USING NUMBER 1-7 (PR-7.1)*/
+#include <stdio.h>
+void main()
+{
+    int week;
+    printf("enter the number from 1-7 :");
+    scanf("%d",&week);
+    switch(week)
+    {
+        case 1:
+             printf("the day is monday.");
+             break;
+         case 2:
+             printf("the day is tuesday.");
+             break; 
+         case 3:
+             printf("the day is wednesday.");
+             break; 
+         case 4:
+             printf("the day is thursday.");
+             break; 
+         case 5:
+             printf("the day is friday.");
+             break;
+         case 6:
+             printf("the day is saturday.");
+             break; 
+         case 7:
+             printf("the day is sunday.");
+             break;
+         default:
+             printf("please enter number between 1-7");
+             break;
+    }
+}
