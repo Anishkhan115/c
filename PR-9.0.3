@@ -1,0 +1,21 @@
+//AUTHOR : ANISH KHAN
+//PROGRAM : reverse the digit of given number
+//DATE : 10/10/2022
+
+
+#include <stdio.h>
+void main()
+    {
+        int i,n,rev,mod;
+        rev=0;
+        printf("enter the number :");
+        scanf("%d",&n);
+        for(i=1;n!=0;i++)
+        {
+            mod=n%10;
+            n=n/10;
+            rev=(rev*10)+mod;
+        }
+             printf("reverse of the number are %d .",rev);
+    }
+    
