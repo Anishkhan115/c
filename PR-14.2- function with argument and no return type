@@ -1,0 +1,24 @@
+// NAME : ANISH KHAN
+//PROGRAM: FUNCTION WITH  ARGUMENT AND NO RETURN TYPE
+//DATE:21-11-22
+
+
+
+#include <stdio.h>
+
+void main() {
+    int a,b;
+    printf("enter 1st number :");
+    scanf("%d",&a);
+    printf("enter 2nd number :");
+    scanf("%d",&b);
+    add(a,b);
+
+}
+void add(int x,int y)
+{
+
+     int sum=x+y;
+    printf("sum of numbers are %d",sum);
+}
+
